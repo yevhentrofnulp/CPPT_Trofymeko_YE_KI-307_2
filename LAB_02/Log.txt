@@ -1,0 +1,23 @@
+Using stock
+Taking aim
+Firing
+Reloading
+Putting on the Fuse
+Using stock
+Taking aim
+Firing
+Putting off the Fuse
+Using stock
+Taking aim
+Firing
+Using stock
+Taking aim
+Firing
+Using stock
+Taking aim
+Firing
+Using stock
+Taking aim
+Firing
+Checking amount of bullets: 0
+Closing file

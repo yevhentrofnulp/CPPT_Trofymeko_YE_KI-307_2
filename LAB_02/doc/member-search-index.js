@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"ki307_Trofymenko_LAB_02","c":"KI307_Trofymenko_LAB_02","l":"KI307_Trofymenko_LAB_02()","u":"%3Cinit%3E()"},{"p":"ki307_Trofymenko_LAB_02","c":"KI307_Trofymenko_LAB_02","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();
