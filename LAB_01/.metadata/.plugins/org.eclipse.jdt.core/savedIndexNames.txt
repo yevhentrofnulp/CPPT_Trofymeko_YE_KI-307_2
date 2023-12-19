@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+D:\repos\CPPT_LABS\LAB_01\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+628914459.index
+279844457.index
+2794193053.index
+1383811469.index

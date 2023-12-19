@@ -1,0 +1,39 @@
+package ki307.Trofymenko.Lab3;
+
+public class AssaultRifle extends Rifle implements Bayonet{
+    /**
+     * Constructor
+     */
+    public AssaultRifle() {
+    }
+
+    /**
+     * Constructor
+     * @param magazineCartridge
+     * @param trigger
+     */
+
+    public AssaultRifle(MagazineCartridge magazineCartridge, Trigger trigger) {
+        super(magazineCartridge, trigger);
+    }
+
+    /**
+     * Constructor
+     * @param magazineCartridge
+     * @param fuse
+     * @param trigger
+     */
+    public AssaultRifle(MagazineCartridge magazineCartridge, Fuse fuse, Trigger trigger) {
+        super(magazineCartridge, fuse, trigger);
+    }
+
+    /**
+     * Implementing method WearBayonet
+     */
+    @Override
+    public void WearBayonet() {
+        System.out.println("Wearing Bayonet");
+        printWriter.print("Wearing Bayonet");
+        printWriter.flush();
+    }
+}

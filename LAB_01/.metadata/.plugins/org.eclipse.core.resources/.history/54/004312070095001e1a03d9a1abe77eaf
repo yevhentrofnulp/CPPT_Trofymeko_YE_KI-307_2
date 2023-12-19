@@ -1,0 +1,46 @@
+package paccck;
+
+// Інтерфейс Moveable містить методи для реалізації руху
+interface Moveable
+{
+void move (double x); // прототип методу
+}
+// Інтерфейс Powered розширює інтерфейс Moveable
+interface Powered extends Moveable
+{
+double milesToFueling (); // прототип методу
+int SPEEDLIMIT = 100; // константа
+}
+// Клас Car реалізує інтерфейс Powered
+public class Car extends Object implements Powered
+{
+public Car (double lFuel, double lMilesPerGalon)
+{
+fuel = lFuel;
+milesPerGalon = lMilesPerGalon;
+distance = 0.0;
+}
+private Car ()
+{
+fuel = 0.0;
+milesPerGalon = 0.0;
+distance = 0.0;
+}
+public void move (double x)
+{
+distance = distance + x;
+fuel = fuel - distance / milesPerGalon;
+}
+public double getDistance()
+{
+return distance;
+}
+public double milesToFueling ()
+{
+return fuel*milesPerGalon;
+}
+
+private double distance;
+private final double milesPerGalon;
+private double fuel;
+}

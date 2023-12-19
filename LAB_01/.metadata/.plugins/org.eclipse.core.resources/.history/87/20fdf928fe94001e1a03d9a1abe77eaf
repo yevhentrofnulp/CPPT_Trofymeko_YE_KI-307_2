@@ -1,0 +1,19 @@
+package ki307.Trofymenko.Lab3;
+
+
+public class Lab03_Class{
+    public static void main(String[] args) {
+        Rifle rifle = new Rifle(new MagazineCartridge(),new Fuse(),new Trigger());
+        rifle.Fire();
+        rifle.Reload();
+        rifle.TurnOnTheFuse();
+        rifle.Fire();
+        rifle.TurnOffTheFuse();
+        rifle.Fire();
+        rifle.Fire();
+        rifle.Fire();
+        rifle.Fire();
+        rifle.CheckMagazineCartridge();
+        rifle.ClosePrintWriter();
+    }
+}

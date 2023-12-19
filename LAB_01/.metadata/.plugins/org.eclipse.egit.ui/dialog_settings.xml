@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+	<item key="GitSelectRepositoryPage.lastRepository" value="C:\Users\whoyoungdog\git\CPPT_Trofymenko_YE_KI-307_2\.git"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/yevhentrofnulp/CPPT_Trofymenko_YE_KI-307_2.git"/>
+		<item value="https://github.com/yevhentrofnulp/CPPT_Trofymenko_YE_KI-307_2/tree/3c676dd9f8c1aeed01408b0f1cfdf548b5e6feb4/LAB_01"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<section name="GitImportWizard">
+		<item key="GitProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+</section>
